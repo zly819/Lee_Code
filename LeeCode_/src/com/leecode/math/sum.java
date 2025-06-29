@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author 张立业
  * @version 1.0
  */
-public class add {
+public class sum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("num1= ");

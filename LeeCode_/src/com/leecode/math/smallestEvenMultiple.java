@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author 张立业
  * @version 1.0
  */
-public class MinEvenMultiple {
+public class smallestEvenMultiple {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number = ");
