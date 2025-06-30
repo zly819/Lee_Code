@@ -19,7 +19,7 @@ public class climbStairs {
              * 2、 1+1，2                       f(2) = 2
              * 3、 1+1+1，1+2，2+1               f(3) =3
              * 4、 1+1+1+1，1+1+2，1+2+1,2+2,2+1+1,     5
-             *
+             *注意时间复杂度
              */
          if (n <= 2) {
              return n;
@@ -31,23 +31,7 @@ public class climbStairs {
              b = c;
          }
          return b;
-
         }
     }
 }
 
-class Solution {
-    public int climbStairs(int n) {
-        if (n <= 2) {
-            return n;
-        }
-        int a = 1, b = 2;
-        for (int i = 3; i <= n; i++) {
-            int c = a + b;
-            a = b;
-            b = c;
-        }
-        return b;
-
-    }
-}
